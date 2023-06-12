@@ -1,0 +1,40 @@
+.homeContainer {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.homeContainer .movieCardWrapper {
+  margin: 30px 30px;
+  width: 15rem;
+  height: 21rem;
+  position: relative;
+}
+
+.homeContainer .movieCardWrapper .addToCartDiv {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeContainer .movieCardWrapper .addToCartDiv .addToCartInput {
+  border: 1px solid gray;
+  padding: 0 8px;
+  border-radius: 10px;
+  width: 100px;
+  float: start;
+  margin-right: 20px;
+}
+
+.homeContainer .movieCardWrapper .addToCartDiv .addToCartButton {
+  background: pink;
+  padding: 0 8px;
+  border-radius: 10px;
+  float: right;
+  margin-left: 20px;
+}
